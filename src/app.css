@@ -41,3 +41,12 @@
 	--font-body: var(--font-family), var(--font-fallback);
 	--font-display: var(--font-body);
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
